@@ -1,0 +1,16 @@
+{
+  "name": "mothership-cli",
+  "version": "1.0.0",
+  "main": "deploy.js",
+  "repository": "https://github.com/unnamed-paas/mothership-cli.git",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "node deploy.js"
+  },
+  "dependencies": {
+    "docker-machine": "^3.0.1",
+    "dockerode": "^3.0.2",
+    "ora": "^4.0.3"
+  }
+}
