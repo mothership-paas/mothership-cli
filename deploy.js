@@ -231,20 +231,21 @@ dockerflow/docker-flow-proxy`);
 
   // We're now done! Prints info on what needs added to their DNS and the IP where the Node.js app lives.
   console.log('');
-  console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
-  console.log('Mothership installer complete!');
-  console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
+  console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
+  console.log('~~ Mothership installer complete! ~~');
+  console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
   console.log('');
   console.log('Note: To finish configuration you\'ll need to add the');
   console.log('following resource records to your DNS provider:');
   console.log('');
-  console.log('  Name      Type      IP');
-  console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
-  console.log(`~ @         A         ${swarmManagerIp}`);
-  console.log(`~ *         A         ${swarmManagerIp}`);
-  console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
+  console.log('   Name          Type      IP');
+  console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
+  console.log(`~~ @             A         ${swarmManagerIp}`);
+  console.log(`~~ *             A         ${swarmManagerIp}`);
+  console.log(`~~ mothership    A         ${mothershipIp}`);
+  console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
   console.log('');
-  console.log(`Mothership is now online at: ${mothershipIp}`);
+  console.log(`After adding these resource records visit Mothership online: http://mothership.${domain}`);
 
   readline.close();
   process.exit();
