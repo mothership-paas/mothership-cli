@@ -18,3 +18,4 @@ Mothership commands should now be available from your command line.
 | `mothership list` | Display list of Mothership's apps |
 | `mothership create appname` | Create an app named `'appname'` |
 | `mothership deploy appname` | Deploy **current directory** to `'appname'` |
+| `mothership logs appname` | Load and stream logs for `'appname'` |
