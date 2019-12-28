@@ -19,6 +19,7 @@ Mothership commands should now be available from your command line.
 
 | Command | Action |
 |---------|--------|
+| `mothership login` | Log in to Mothership |
 | `mothership help` | Display list of CLI commands |
 | `mothership list` | Display list of Mothership's apps |
 | `mothership create appname` | Create an app named `'appname'` |
