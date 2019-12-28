@@ -1,10 +1,15 @@
-# mothership-cli
+![Mothership](https://imgur.com/6InUcxa.png)
+
+<h1 align="center">🛸 Mothership CLI</h1>
+
+<p align="center">CLI client for creating, deploying, and managing Mothership applications</p>
 
 ## Setup
 
 1. Clone repo
-2. Run `yarn install`
-3. Run `yarn link`
+2. `cd` into repo
+3. Run `yarn install`
+4. Run `yarn link`
 
 Mothership commands should now be available from your command line.
 
