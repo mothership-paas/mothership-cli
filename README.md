@@ -15,8 +15,6 @@ Mothership commands should now be available from your command line.
 
 ## Commands
 
-(At this time all commands assume Mothership is running on `localhost:3000`)
-
 | Command | Action |
 |---------|--------|
 | `mothership login` | Log in to Mothership |
